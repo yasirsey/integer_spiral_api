@@ -1,0 +1,28 @@
+{
+  "name": "integer_spiral_api",
+  "version": "1.0.0",
+  "description": "Integer Spiral REST API with Node.js",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirsey/integer_spiral_api.git"
+  },
+  "author": "Yasir SEYREK <yasirsey@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasirsey/integer_spiral_api/issues"
+  },
+  "homepage": "https://github.com/yasirsey/integer_spiral_api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
