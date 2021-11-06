@@ -10,7 +10,7 @@ Integer Spiral REST API With Node.js
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Description: Create new layout with x and y dimensions in database and return layoutId.
  - POST /api/layouts/getValue
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Content-Type: application/json
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;values: x:integer, y:integer, layoutId:integer
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;values: x:integer, y:integer, layoutId:mongoose.objectId
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;Description: Return in the x and y coordinates value in layout equal to layoutId.
 
 ### Tech Stack
