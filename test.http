@@ -1,0 +1,21 @@
+### GET ALL LAYOUTS
+GET http://localhost:5000/api/layouts
+
+### CREATE NEW LAYOUT
+POST http://localhost:5000/api/layouts HTTP/1.1
+Content-Type: application/json
+
+{
+    "x": 1,
+    "y": 2
+}
+
+### GET VALUE OF X, Y IN LAYOUT
+POST http://localhost:5000/api/layouts/getValue HTTP/1.1
+Content-Type: application/json
+
+{
+    "layoutId": "618647ff657878af5f16bcfc",
+    "x": 5,
+    "y": 4
+}
