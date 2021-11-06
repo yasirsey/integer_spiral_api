@@ -7,6 +7,7 @@ require('dotenv').config()
 require('./config/database').connect()
 
 const app = express()
+app.use(express.json())
 
 //Middlewares of API Routers
 app.use('/api', require('./routers'))
