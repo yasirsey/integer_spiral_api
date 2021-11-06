@@ -4,6 +4,6 @@ const { layout } = require('../controllers/index')
 
 router.post('/', layout.create)
 router.get('/', layout.getAll)
-router.get('/value', layout.getValueOfLayout)
+router.post('/getValue', layout.getValueOfLayout)
 
 module.exports = router
